@@ -1,0 +1,26 @@
+mov
+jmp
+nop (I did not mentioned it during today's class, it is the No Operation or do
+nothing. You may remember it from our very first machine code program.)
+a (register A)
+x
+y (x, and y are also registers, we will use them later)
+numbers in decimal notation (positive integers (and zero) at minimum, but
+you can add the possibility to recognize negative integers as well)
+numbers in hexadecimal (they must start with 0x or 0X)
+, [ ] (comma and brackets)
+newline
+whitespace should be ignored
+anything else sould be recognized as a syntax error
+Opcodes, registers and hexadecimal numbers must be
+recognized in both upper and lower case.
+The actual value of the numbers must be converted to a
+variable (type: int) and also printed.
+Also write at least two test cases.
+A test case contains an input file, and an expected
+output file. Then the compiled program can be tested
+like this:
+./a.exe < testinput.txt
+and we can compare the output with the expected output.
+The solutions must be uploaded to your groups github repo,
+or your personal github repo.
